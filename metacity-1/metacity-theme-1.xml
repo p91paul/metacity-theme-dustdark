@@ -117,7 +117,10 @@
         <color value="shade/gtk:bg[NORMAL]/0.16" />
         <color value="shade/gtk:bg[NORMAL]/0.18" />
         <color value="shade/gtk:bg[NORMAL]/0.2" />
-    </gradient>    
+    </gradient>
+    
+    <!-- Topmost dark line -->
+    <line color="shade/gtk:bg[NORMAL]/0.30" x1="0" x2="width" y1="0" y2="0"/>    
 </draw_ops>
 
 <draw_ops name="draw_title_maximized_inactive">
